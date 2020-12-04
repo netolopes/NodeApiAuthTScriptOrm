@@ -1,6 +1,5 @@
-# Aula 04 - Iniciando back-end
-
-Nessa aula foi terminado o desenvolvimento do back-end da aula anterior que recebe requisiçes HTTP através do http://localhost:3333/ e salva os dados em banco de dados Postgres.
+# Node api typescript orm
+acesso: http://localhost:3333/ e salva os dados em banco de dados Postgres.
 
 *para rodar esse projeto, você vai precisar estar rodando um banco de dados Postgres com nome "gostack_gobarber", instalar as libs com o comando **yarn** e rodar o projeto com o comando **yarn dev:server***
 
@@ -54,7 +53,7 @@ As requisições aceitas são:
 
 ```JSON
 {
-	"name": "Thiago",
+	"name": "neto",
 	"email": "neto@gmail.com",
 	"password": "123456"
 }
@@ -77,7 +76,7 @@ As requisições aceitas são:
 
 ```JSON
 {
-	"email": "thiagocdn@gmail.com",
+	"email": "neto@gmail.com",
 	"password": "123456"
 }
 ```
